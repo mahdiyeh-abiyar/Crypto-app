@@ -1,0 +1,115 @@
+.container {
+  position: fixed;
+  inset: 0;
+  background: rgba(15, 15, 18, 0.95);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 50;
+  backdrop-filter: blur(6px);
+}
+
+.chart {
+  background: #18181b;
+  border-radius: 20px;
+  padding: 2rem;
+  width: 90%;
+  max-width: 700px;
+  color: #e5e5e5;
+  box-shadow: 0 0 20px rgba(124, 58, 237, 0.25);
+  position: relative;
+}
+
+.cross {
+  position: absolute;
+  top: 16px;
+  right: 20px;
+  font-size: 1.5rem;
+  color: #ef4444;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.cross:hover {
+  transform: scale(1.2);
+  color: #f87171;
+}
+
+.name {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 600;
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.name img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.graph {
+  height: 350px;
+  background-color: #0f0f12;
+  border-radius: 12px;
+  padding: 1rem;
+}
+
+.types {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.types button {
+  background: #1f1f23;
+  color: #a1a1aa;
+  border: 1px solid #3b3b3f;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.types button:hover {
+  background: #3b82f6;
+  color: #fff;
+}
+
+.selected {
+  background: linear-gradient(90deg, #7c3aed, #3b82f6);
+  color: #fff;
+  border: none;
+}
+
+.details {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1.5rem;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.details div {
+  background: #1f1f23;
+  border-radius: 10px;
+  padding: 1rem;
+  text-align: center;
+  width: 30%;
+  min-width: 150px;
+}
+
+.details p {
+  color: #a1a1aa;
+  font-weight: 500;
+}
+
+.details span {
+  display: block;
+  margin-top: 0.3rem;
+  font-weight: 600;
+  color: #7c3aed;
+}

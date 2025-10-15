@@ -1,0 +1,41 @@
+.header {
+  text-align: center;
+  margin: 2rem 0;
+  padding: 1rem 0;
+  background: linear-gradient(90deg, #1e1e22, #18181b);
+  border-radius: 16px;
+  box-shadow: 0 0 15px rgba(124, 58, 237, 0.2);
+}
+
+.header h1 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #7c3aed;
+  text-shadow: 0 0 10px rgba(124, 58, 237, 0.6);
+}
+
+.header p {
+  color: #a1a1aa;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+.header a {
+  color: #3b82f6;
+  margin-right: 8px;
+  transition: all 0.3s ease;
+}
+
+.header a:hover {
+  color: #7c3aed;
+  text-shadow: 0 0 8px #7c3aed;
+}
+
+.footer {
+  text-align: center;
+  padding: 1rem;
+  color: #a1a1aa;
+  margin-top: 3rem;
+  font-size: 0.9rem;
+  border-top: 1px solid #27272a;
+}
